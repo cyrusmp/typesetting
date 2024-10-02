@@ -44,17 +44,17 @@ header, footer {
 
 /* WRITE YOUR CODE BELOW HERE */
 @font-face {
-  font-family: 'BodyFonts';
-  src: url('fonts/Roboto-Regular.ttf') format('ttf'),
-       url('fonts/AfacadFlux-Light.ttf') format('ttf');
+  font-family: BodyFonts;
+  src: url(fonts/Roboto-Regular.ttf) ,
+       url(fonts/AfacadFlux-Light.ttf);
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'alfa_slab_oneregular';
-  src: url('fonts/alfaslabone-regular-webfont.woff2') format('woff2'),
-       url('fonts/alfaslabone-regular-webfont.woff') format('woff');
+  src: url(fonts/alfaslabone-regular-webfont.woff2) format('woff2'),
+       url(fonts/alfaslabone-regular-webfont.woff) format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -64,7 +64,7 @@ html {
 }
 
 body {
-  font-family: 'BodyFonts';
+  font-family: BodyFonts;
   font-size: 1.6rem;
   letter-spacing: 0.05em;
   word-spacing: 0.1em;
