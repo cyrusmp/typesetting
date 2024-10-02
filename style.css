@@ -45,8 +45,8 @@ header, footer {
 /* WRITE YOUR CODE BELOW HERE */
 @font-face {
   font-family: 'BodyFonts';
-  src: url('fonts/breeserif-regular-webfont.woff2') format('woff2'),
-       url('fonts/breeserif-regular-webfont.woff') format('woff');
+  src: url('fonts/Roboto-Regular.ttf') format('ttf'),
+       url('fonts/AfacadFlux-Light.ttf') format('ttf');
   font-weight: normal;
   font-style: normal;
 }
