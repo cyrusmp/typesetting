@@ -43,14 +43,29 @@ header, footer {
 }
 
 /* WRITE YOUR CODE BELOW HERE */
-  @font-face {
-    font-family: ;
-    src: ;
-    src: ;
+@font-face {
+  font-family: 'bree_serifregular';
+  src: url('fonts/breeserif-regular-webfont.woff2') format('woff2'),
+       url('fonts/breeserif-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
-html {font-family: ;}
+@font-face {
+  font-family: 'alfa_slab_oneregular';
+  src: url('fonts/alfaslabone-regular-webfont.woff2') format('woff2'),
+       url('fonts/alfaslabone-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
-h1 {font-family: ;}
+html {
+  font-size: 10px;
+}
 
-h2 {font-family: ;}
+body {
+  font-family: 'bree_serifregular';
+  font-size: 1.6rem;
+  letter-spacing: 0.05em;
+  word-spacing: 0.1em;
+}
