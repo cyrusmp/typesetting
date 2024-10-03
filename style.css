@@ -44,17 +44,18 @@ header, footer {
 
 /* WRITE YOUR CODE BELOW HERE */
 @font-face {
-  font-family: BodyFonts;
-  src: url(fonts/Roboto-Regular.ttf) ,
-       url(fonts/AfacadFlux-Light.ttf);
+  font-family: HeadFonts;
+  src: url(fonts/AfacadFlux-Light.ttf),
+       url(fonts/Roboto-Regular.ttf) ;
+       
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'alfa_slab_oneregular';
-  src: url(fonts/alfaslabone-regular-webfont.woff2) format('woff2'),
-       url(fonts/alfaslabone-regular-webfont.woff) format('woff');
+  font-family: BodyFonts;
+  src: url(fonts/EBGaramond-Regular.ttf),
+       url(fonts/SourceSerif4_18pt-Regular.ttf);
   font-weight: normal;
   font-style: normal;
 }
@@ -68,4 +69,16 @@ body {
   font-size: 1.6rem;
   letter-spacing: 0.05em;
   word-spacing: 0.1em;
+}
+
+h1, h2 {
+  font-family: HeadFonts;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 30px;
 }
