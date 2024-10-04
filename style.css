@@ -74,6 +74,7 @@ body {
 
 h1, h2 {
   font-family: HeadFonts;
+  letter-spacing: 0.02em ;
 }
 
 h1 {
