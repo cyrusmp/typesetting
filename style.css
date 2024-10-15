@@ -90,14 +90,10 @@ section h2 + p {
   text-indent: 1.25rem;
 }
 
-a:visited {
-
-}
-
-a:focus {
-
+a {
+  color: #a66;  
 }
 
 a:hover {
-
+  text-decoration: none;
 }
