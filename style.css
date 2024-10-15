@@ -91,9 +91,28 @@ section h2 + p {
 }
 
 a {
-  color: #a66;  
+  color: #a66; 
 }
 
-a:hover {
+a:hover, a:focus, a:visited {
+  color: blue;
   text-decoration: none;
+}
+
+a:active {
+  background: #296767;
+  color: white;
+  border: 1px solid #296767;
+}
+
+aside a:active{
+  background: #296767;
+  color: white;
+  border: 1px solid #296767;
+}
+
+nav a:active {
+  background: #296767;
+  color: white;
+  border: 1px solid #296767;
 }
