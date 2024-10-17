@@ -111,8 +111,21 @@ aside a:active{
   border: 1px solid #296767;
 }
 
-nav a:active {
+section a:active {
   background: #296767;
   color: white;
   border: 1px solid #296767;
+}
+
+a[href*="http"] {
+  background: url('—Pngtree—arrow\ in\ flat\ style\ arrow_3548302.png') no-repeat 100% ;
+  background-size: 1rem;
+  background-position: bottom 0.5rem right;
+  padding-right: 1.2rem;
+}
+
+li, ul, p {
+  line-height: 1.5;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
