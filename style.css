@@ -95,7 +95,7 @@ a {
 }
 
 a:hover, a:focus, a:visited {
-  color: #0b4141
+  color: #0b4141;
   text-decoration: none;
 }
 
