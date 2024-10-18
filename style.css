@@ -95,26 +95,26 @@ a {
 }
 
 a:hover, a:focus, a:visited {
-  color: #296767;
+  color: #0b4141
   text-decoration: none;
 }
 
 a:active {
   background: #296767;
   color: white;
-  border: 1px solid #296767;
+  border: 1px solid #0b4141;
 }
 
 aside a:active{
-  background: #296767;
+  background: #0b4141;
   color: white;
-  border: 1px solid #296767;
+  border: 1px solid #0b4141;
 }
 
 section a:active {
-  background: #296767;
+  background: #0b4141
   color: white;
-  border: 1px solid #296767;
+  border: 1px solid 0b4141
 }
 
 a[href*="http"] {
