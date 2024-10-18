@@ -54,7 +54,7 @@ header, footer {
 
 @font-face {
   font-family: BodyFonts;
-  src: url(https://github.com/cyrusmp/typesetting/blob/main/Fonts/EBGaramond-Regular.ttf),
+  src: url(Fonts/EBGaramond-Regular.ttf),
        url(https://github.com/cyrusmp/typesetting/blob/main/Fonts/SourceSerif4_18pt-Regular.ttf);
   font-weight: normal;
   font-style: normal;
