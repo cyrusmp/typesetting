@@ -45,7 +45,7 @@ header, footer {
 /* WRITE YOUR CODE BELOW HERE */
 @font-face {
   font-family: HeadFonts;
-  src: url(fonts/AfacadFlux-Medium.ttf),
+  src: url(https://github.com/cyrusmp/typesetting/blob/main/Fonts/AfacadFlux-Medium.ttf),
        url(fonts/Roboto-Medium.ttf) ;
        
   font-weight: normal;
