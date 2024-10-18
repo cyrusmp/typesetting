@@ -45,8 +45,8 @@ header, footer {
 /* WRITE YOUR CODE BELOW HERE */
 @font-face {
   font-family: HeadFonts;
-  src: url(https://github.com/cyrusmp/typesetting/blob/main/Fonts/AfacadFlux-Medium.ttf),
-       url(https://github.com/cyrusmp/typesetting/blob/main/Fonts/Roboto-Medium.ttf) ;
+  src: url(Fonts/AfacadFlux-Medium.ttf),
+       url(Fonts/Roboto-Medium.ttf) ;
        
   font-weight: normal;
   font-style: normal;
@@ -55,7 +55,7 @@ header, footer {
 @font-face {
   font-family: BodyFonts;
   src: url(Fonts/EBGaramond-Regular.ttf),
-       url(https://github.com/cyrusmp/typesetting/blob/main/Fonts/SourceSerif4_18pt-Regular.ttf);
+       url(Fonts/SourceSerif4_18pt-Regular.ttf);
   font-weight: normal;
   font-style: normal;
 }
